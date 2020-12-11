@@ -1,0 +1,2 @@
+SELECT name FROM people WHERE id in (SELECT person_id FROM stars WHERE movie_id in (SELECT id FROM movies WHERE title="Toy Story"));
+-- SELECT name FROM people JOIN stars ON people.id=stars.person_id JOIN movies ON movie_id=movies.id AND title="Toy Story";
