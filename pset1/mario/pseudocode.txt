@@ -1,0 +1,10 @@
+1   Prompt user for height
+2   Look at height
+3   If height is less than 1
+4       Go back to line 1
+5   Else if height is greater than 8
+6       Go back to line 1
+7   Else
+8      loop from 1 through height
+       print height-i blank and i hash
+      
